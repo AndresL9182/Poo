@@ -1,0 +1,22 @@
+
+package ejercicios_clase;
+
+import java.util.Scanner;
+
+public class Ejercicio_5 {
+
+    public static void main(String[] args) {
+                
+        Scanner teclado = new Scanner(System.in);        
+  System.out.println("Ingresar numero de la tabla");
+          int tabla = teclado.nextInt();
+            
+            int cont = 0;            
+            while(cont<10)  {
+            //mul = (tabla*cont);
+            System.out.println(tabla+"x"+cont+"="+tabla*cont);
+            cont++;
+    }
+    
+ }
+     }
